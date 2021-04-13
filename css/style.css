@@ -13,18 +13,41 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.color_blue {
+    color:#031b4e;
+}
+.color_white {
+    color: white;
+}
+.color_gray {
+    color: gainsboro;
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
 /* Header */
 
-.my_navbar {
-    height: 60px;
+/* Nav */
+
+.my_navbar.navbar {
+    margin-bottom: 0;
 }
 
 .my_navbar .navbar-left {
     padding-left: 80px;
+    padding-top: 10px;
 }
 
 .my_navbar .navbar-right {
     padding-right: 30px;
+    padding-top: 10px;
+}
+
+.my_navbar .navbar-header {
+    padding-top: 5px;
 }
 
 .my_navbar .navbar-brand {
@@ -34,6 +57,12 @@ body {
 
 .my_navbar .navbar-brand > img {
     height: 100%;
+}
+
+.my_navbar .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
 }
 
 .my_navbar a {
@@ -55,10 +84,26 @@ body {
     color: #0167fe;
     background-color: white;
     border-color: #0167fe;
-    margin-top: 8px;
+    margin-top: 3px;
 }
 
 .my_navbar .navbar-nav>li>a.btn_ocean {
     padding: 6px 12px;
+}
+
+/* Jumbotron */
+
+#my_jumbotron {
+    /* height: 500px; */
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+}
+
+.jumbo_title {
+    padding: 40px 10px;
+}
+
+.jumbo_title > p {
+    font-size: 22px;
 }
 
