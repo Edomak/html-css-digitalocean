@@ -1,0 +1,64 @@
+/* Debug */
+
+[class*="col-"] {
+    min-height: 100px;
+    /* line-height: 100px; */
+    /* background-color: yellowgreen; */
+    /* border: 2px solid black; */
+}
+
+/* Common */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.my_navbar {
+    height: 60px;
+}
+
+.my_navbar .navbar-left {
+    padding-left: 80px;
+}
+
+.my_navbar .navbar-right {
+    padding-right: 30px;
+}
+
+.my_navbar .navbar-brand {
+    padding: 11px 11px;
+    padding-left: 50px;
+}
+
+.my_navbar .navbar-brand > img {
+    height: 100%;
+}
+
+.my_navbar a {
+    color:#031b4e;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.my_navbar .navbar-toggle .icon-bar {
+    width: 24px;
+    height: 3px;
+    background-color: #0167fe;
+}
+
+.btn_ocean,
+.my_navbar a.btn_ocean{
+    font-size: 15px;
+    font-weight: bold;
+    color: #0167fe;
+    background-color: white;
+    border-color: #0167fe;
+    margin-top: 8px;
+}
+
+.my_navbar .navbar-nav>li>a.btn_ocean {
+    padding: 6px 12px;
+}
+
