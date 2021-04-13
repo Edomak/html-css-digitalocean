@@ -16,11 +16,21 @@ body {
 .color_blue {
     color:#031b4e;
 }
+.color_lightblue {
+    color:#3181ff;
+}
 .color_white {
     color: white;
 }
 .color_gray {
-    color: gainsboro;
+    color:gray;
+}
+.color_lightgray {
+    color: lightgray;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 
@@ -97,6 +107,22 @@ h1 {
     /* height: 500px; */
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.jumbo_right {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.jumbo_right h3 {
+    font-size: 30px;
+}
+.jumbo_form_title p {
+    font-size: 30px;
 }
 
 .jumbo_title {
@@ -107,3 +133,31 @@ h1 {
     font-size: 22px;
 }
 
+.button_form {
+    text-align: center;
+}
+
+.my_account,
+.my_google {
+    display: block;
+    margin: 10px 0;
+}
+
+.my_account {
+    background-color: #0167fe;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #0167fe;
+}
+
+.my_google {
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid gainsboro;
+}
+.my_google #logo_ggl {
+    position: absolute;
+    left: 40px;
+    width: 4%;
+}
