@@ -297,6 +297,40 @@ figcaption {
     color: #3181ff;
 }
 
+/* Sezione Features */
+
+#features {
+    padding: 40px 0;
+}
+
+.feature_img {
+    padding-top: 40px;
+}
+
+.feature_img img {
+    padding-bottom: 10px;
+}
+
+.feature_img h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #011d4c;
+}
+
+.feature_img p {
+    font-size: 14px;
+}
+
+.feature_img i {
+  font-size: 8px;
+  padding-left: 5px;
+}
+
+/* Sezione table */
+
+
+
+
 
 
 
