@@ -1,7 +1,7 @@
 /* Debug */
 
 [class*="col-"] {
-    min-height: 100px;
+    /* min-height: 100px; */
     /* line-height: 100px; */
     /* background-color: yellowgreen; */
     /* border: 2px solid black; */
@@ -11,10 +11,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    padding-top: 70px;
 }
 
 .container_70 {
     width: 70%;
+    margin: 0 auto;
+}
+
+.container_60 {
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -46,11 +52,20 @@ h1 {
     font-size: 60px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
 /* Header */
 
 /* Nav */
 
 .my_navbar.navbar {
+    background-color: white;
     margin-bottom: 0;
 }
 
@@ -138,7 +153,11 @@ h1 {
 }
 
 .jumbo_title > p {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.jumbo_form p {
+    font-size: 15px;
 }
 
 .button_form {
@@ -191,5 +210,51 @@ h1 {
     font-size: 10px;
     padding-left: 10px;
 }
+
+/* Deploy */
+
+#deploy {
+    padding: 40px 0;
+}
+
+.deploy_list {
+    padding: 40px 0;
+}
+
+.deploy_list_int {
+    list-style: none;
+    border-left: 1px solid lightgray;
+}
+
+.deploy_list_int li {
+    padding: 10px 0;
+    color: gray;
+    font-size: 18px;
+}
+
+.deploy_right_top {
+    padding-top: 40px;
+}
+
+.deploy_right_bottom {
+    padding-top: 30px;
+}
+
+.deploy_right_top img,
+.deploy_right_bottom img {
+    padding-bottom: 10px;
+}
+
+.deploy_right_top h4,
+.deploy_right_bottom h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deploy_right_top p,
+.deploy_right_bottom p {
+    font-size: 14px;
+}
+
 
 

@@ -19,7 +19,7 @@
         <!-- Testata della pagina -->
         <!-- Navbar -->
         <header>
-            <nav class="navbar my_navbar">
+            <nav class="navbar my_navbar navbar-fixed-top">
                 <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,8 +30,8 @@
                     </button>
                     <a class="navbar-brand " href="#"><img src="img/logo.png" alt=""></a>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-left">
+                <div class="collapse navbar-collapse visible-lg" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left hidden-sm hidden-md">
                         <li>
                             <a href="#">Products <i class="fas fa-chevron-down"></i></a>
                         </li>
@@ -43,7 +43,8 @@
                             <a href="#">Pricing</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right
+                    hidden-sm hidden-md">
                         <li>
                             <a href="#">Docs</a>
                         </li>
@@ -131,8 +132,74 @@
         <!-- /Testata della pagina -->
         <!-- Corpo della pagina -->
         <main>
-            <section></section>
-            <section></section>
+            <!-- Sezione Deploy -->
+            <section id="deploy">
+                <div class="container">
+                    <div class="deploy_title text-center">
+                        <h3>Deploy and scale seamlessly</h3>
+                        <p class="color_gray">Our optimized configuration process saves your team time when running and scaling distributed apllications, Al & machine learning workloads, hosted services, client websites, or CI/CD environments</p>
+                    </div>
+                </div>
+                <div class="container_60">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="deploy_list">
+                                    <ul class="deploy_list_int">
+                                        <li>Deploy</li>
+                                        <li>Manage</li>
+                                        <li>Secure</li>
+                                        <li>Scale</li>
+                                        <li>Monitor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-8">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="deploy_right_top">
+                                                <img src="img/cluster-deploy.svg" alt="cluster icon">
+                                                <h4>Cluster deployments</h4>
+                                                <p class="color_gray">Provision multiple droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="deploy_right_top">
+                                                <img src="img/optimized-compute.svg" alt="optimized-compute icon">
+                                                <h4>Optimized compute types</h4>
+                                                <p class="color_gray">Get the compuete resources you need with Standard or Optimized Droplets.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="deploy_right_bottom">
+                                                <img src="img/one-click.svg" alt="one-click icon">
+                                                <h4>One-Click apps</h4>
+                                                <p class="color_gray">Skip the install and configuration progress with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6">
+                                            <div class="deploy_right_bottom">
+                                                <img src="img/global.svg" alt="global icon">
+                                                <h4>Global availability</h4>
+                                                <p class="color_gray">Deploy to any of our data center regions around the world</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Sezione Deploy -->
+            <!-- Sezione easy-to-use carousel -->
+            <section id="easy_to_use">
+
+            </section>
+            <!-- Sezione easy-to-use carousel -->
             <section></section>
             <section></section>
             <section></section>
