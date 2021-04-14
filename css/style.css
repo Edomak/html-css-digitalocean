@@ -14,18 +14,18 @@ body {
     padding-top: 70px;
 }
 
-.container_70 {
+.wrapper_70 {
     width: 70%;
     margin: 0 auto;
 }
 
-.container_60 {
+.wrapper_60 {
     width: 60%;
     margin: 0 auto;
 }
 
 .color_blue {
-    color:#031b4e;
+    color:#011d4c;
 }
 .color_lightblue {
     color:#3181ff;
@@ -52,8 +52,13 @@ h1 {
     font-size: 60px;
 }
 
-h3 {
+h2 {
     font-size: 30px;
+    color: #011d4c;
+}
+
+h3 {
+    color: #011d4c;
 }
 
 p {
@@ -249,12 +254,50 @@ p {
 .deploy_right_bottom h4 {
     font-size: 18px;
     font-weight: bold;
+    color: #011d4c;
 }
 
 .deploy_right_top p,
 .deploy_right_bottom p {
     font-size: 14px;
 }
+
+/* Easy to use Carousel */
+
+#my_carousel {
+    background-color:#f2f5f9;
+    padding: 40px 0;
+}
+
+#my_carousel h2 {
+    margin-bottom: 20px;
+}
+
+.my_carousel_img {
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+.my_carousel_img img {
+    width: 80%;
+}
+
+figcaption {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.my_carousel_img i {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.my_circle .far {
+    color: #3181ff;
+}
+
+
 
 
 
