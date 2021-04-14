@@ -262,14 +262,14 @@ p {
     font-size: 14px;
 }
 
-/* Easy to use Carousel */
+/* Easy-to-use Carousel */
 
 #my_carousel {
     background-color:#f2f5f9;
     padding: 40px 0;
 }
 
-#my_carousel h2 {
+.my_carousel h2 {
     margin-bottom: 20px;
 }
 
@@ -327,6 +327,90 @@ figcaption {
 }
 
 /* Sezione table */
+
+#my_table {
+    padding: 40px 0;
+    background: linear-gradient(135deg,#120038 0%, #0167fe 100%);
+}
+
+#my_table .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border:none;
+}
+
+#my_table tr {
+    border-bottom: 1px solid lightgray;
+}
+
+#my_table tr  i {
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+#my_table h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+#my_table .color_lightblue {
+    text-align: right;
+    
+}
+
+#my_table th {
+    color: white;
+    font-weight: 450;
+}
+
+/* Sezione team carousel */
+
+#rocker_img {
+    background-color: white;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+#rocker_img img {
+    padding: 20px 0;
+}
+
+.my_carousel_img > #rockerbox{
+    width: 50%;
+}
+
+#rocker_img > #rick {
+    display: inline-block;
+    color: #011d4c;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#rocker_img > #cto {
+    display: inline-block;
+    color: #011d4c;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#rocker_img i {
+    font-size: 12px;
+}
+
+/* Footer */
+
+#my_footer_top {
+    padding: 40px 0;
+    background: linear-gradient(135deg,#120038 0%, #0167fe 100%);
+}
+
+#my_footer_top h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+
 
 
 
