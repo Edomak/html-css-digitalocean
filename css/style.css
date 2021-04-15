@@ -158,6 +158,7 @@ p {
 .jumbo_right h3 {
     font-size: 30px;
 }
+
 .jumbo_form_title p {
     font-size: 30px;
 }
@@ -198,6 +199,7 @@ p {
     font-weight: bold;
     border: 1px solid gainsboro;
 }
+
 .my_google #logo_ggl {
     position: absolute;
     left: 40px;
@@ -274,7 +276,7 @@ p {
 
 /* Easy-to-use Carousel */
 
-#my_carousel {
+.my_carousel {
     background-color:#f2f5f9;
     padding: 40px 0;
 }
@@ -299,7 +301,7 @@ figcaption {
 }
 
 .my_carousel_img i {
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 10px;
 }
 
@@ -351,6 +353,10 @@ figcaption {
     border-bottom: 1px solid lightgray;
 }
 
+#my_table tr.no_border {
+    border: none;
+}
+
 #my_table tr  i {
     font-size: 10px;
     padding-left: 8px;
@@ -379,6 +385,7 @@ figcaption {
 /* Sezione team carousel */
 
 #rocker_img {
+    position: relative;
     background-color: white;
     padding: 40px 0;
     margin-bottom: 30px;
@@ -408,6 +415,24 @@ figcaption {
 
 #rocker_img i {
     font-size: 12px;
+}
+
+#rocker_img i.sinistra,
+#rocker_img i.destra {
+    position: absolute;
+    font-size: 22px;
+    font-weight: bolder;
+   
+}
+
+#rocker_img i.destra {
+    top: 130px;
+    left: 580px;
+}
+
+#rocker_img i.sinistra {
+    top: 130px;
+    right: 580px;
 }
 
 /* Footer */
