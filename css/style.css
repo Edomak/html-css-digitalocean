@@ -423,6 +423,11 @@ figcaption {
     padding-bottom: 20px;
 }
 
+#my_footer_top #account:hover {
+    color: white;
+    background-color: #0165ce;
+}
+
 /* Footer-bottom */
 
 #my_footer_bottom {
@@ -460,7 +465,7 @@ figcaption {
 }
 
 .my_footer_left_list i:hover {
-    color: white;
+    color: #0165ce;
 }
 .my_footer_right_list li a:hover {
     color: white;
